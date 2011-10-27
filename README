@@ -9,3 +9,9 @@ This class allows you to download the caption from a video from you tube
         # Modify the caption as you want if desired
         >>> cc.writeSrtFile('captionsfile.srt')
         #write the contents to a srt file
+
+
+
+If you prefer the command line version of this, or just to test it:
+    $ python getyoutubecc 2XraaWefBd8 9FLItlbBUPY
+    And it will download the closed captions of both videos
