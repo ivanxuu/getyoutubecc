@@ -1,4 +1,9 @@
+DESCRIPTION
+
 This class allows you to download the caption from a video from you tube
+
+PYTHON CLASS USAGE
+
     Example:
         >>> import getyoutubecc
         #import the library
@@ -11,7 +16,20 @@ This class allows you to download the caption from a video from you tube
         #write the contents to a srt file
 
 
+COMMAND LINE USAGE
 
 If you prefer the command line version of this, or just to test it:
     $ python getyoutubecc 2XraaWefBd8 9FLItlbBUPY
     And it will download the closed captions of both videos
+
+
+COPYRIGHT
+
+this code is released into the public domain by the copyright holders.
+
+
+TODO
+
+- Test the code, different languages in diferent videos for instance
+- Improve regular expresion
+- Add support for the automatic generate captions service in youtube
