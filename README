@@ -1,0 +1,11 @@
+This class allows you to download the caption from a video from you tube
+    Example:
+        >>> import getyoutubecc
+        #import the library
+        >>> cc = getyoutubecc.getyoutubecc('2XraaWefBd8','en')
+        # Now in cc.caption_obj are the parsed captions, its syntax is like:
+        # [{'texlines': [u"caption first line", 'caption second line'],
+        #    'time': {'hours':'1', 'min':'2','sec':44,'msec':232} }]
+        # Modify the caption as you want if desired
+        >>> cc.writeSrtFile('captionsfile.srt')
+        #write the contents to a srt file
