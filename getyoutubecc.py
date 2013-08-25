@@ -117,13 +117,13 @@ if __name__ == "__main__":
     except getopt.GetoptError:
         print 'getyoutubecc -v <video_id> -l <language_id> -t <track_name> -T <translate_to>'
         print 'Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es'
-        print 'Example: getyoutubecc -a 2XraaWefBd8 -l en ' 
+        print 'Example: getyoutubecc -v 2XraaWefBd8 -l en ' 
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
           print 'getyoutubecc -v <video_id> -l <language_id> -t <track_name> -T <translate_to>'
           print 'Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es'
-          print 'Example: getyoutubecc -a 2XraaWefBd8 -l en ' 
+          print 'Example: getyoutubecc -v 2XraaWefBd8 -l en ' 
           print 'NOTE: if video has a track name, the -t argument is mandatory ' 
           sys.exit()
         elif opt in ("-v", "--videoid"):
@@ -141,5 +141,5 @@ if __name__ == "__main__":
     else:
       print 'getyoutubecc -v <video_id> -l <language_id> -t <track_name> -T <translate_to>'
       print 'Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es'
-      print 'Example: getyoutubecc -a 2XraaWefBd8 -l en ' 
+      print 'Example: getyoutubecc -v 2XraaWefBd8 -l en ' 
       print 'NOTE: if video has a track name, the -t argument is mandatory ' 
