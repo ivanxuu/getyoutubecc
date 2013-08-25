@@ -31,7 +31,7 @@ class getyoutubecc():
     def __init__(self, video_id, lang="en", track="", tlang="" ):
         """ """
         #Obtain the file from internet
-        cc_url = "http://www.youtube.com/api/timedtext?v=" + video_id + "&lang=" + lang + "&name=" + track + "&tlang" + tlang
+        cc_url = "http://www.youtube.com/api/timedtext?v=" + video_id + "&lang=" + lang + "&name=" + track + "&tlang=" + tlang
         print "video id: " + video_id
         print "video language: " + lang
         print "video track: " + track
