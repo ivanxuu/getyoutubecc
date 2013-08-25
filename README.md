@@ -33,6 +33,7 @@ COMMAND LINE USAGE
 -------------------------------------------------------
 
 If you prefer the command line version of this, or just to test it:
+
             $ ./getyoutubecc.py -h
             getyoutubecc -v <video_id> -l <language_id> [-t <track_name>] [-T <translate_to>]
             Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es
