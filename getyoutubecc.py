@@ -134,6 +134,12 @@ if __name__ == "__main__":
           track = arg
         elif opt in ("-T", "--translate"):
           tlang = arg
-    print "downloading " + videoid + " captions"
-    cc = getyoutubecc(videoid, lang, track, tlang)
-    cc.writeSrtFile(videoid + '.srt')
+    if videoid != '':
+      print "downloading " + videoid + " captions"
+      cc = getyoutubecc(videoid, lang, track, tlang)
+      cc.writeSrtFile(videoid + '.srt')
+    else:
+      print 'getyoutubecc -v <video_id> -l <language_id> -t <track_name> -T <translate_to>'
+      print 'Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es'
+      print 'Example: getyoutubecc -a 2XraaWefBd8 -l en ' 
+      print 'NOTE: if video has a track name, the -t argument is mandatory ' 
