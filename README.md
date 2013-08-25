@@ -2,6 +2,9 @@ DESCRIPTION
 =======================================================
 
 This class allows you to download the caption from a video from you tube
+It support: 
+    - Downloading a track if video has multiple tracks (you have to know the name of the track)
+    - Automatic translation to another language
 
 
 PYTHON CLASS USAGE
@@ -39,6 +42,14 @@ If you prefer the command line version of this, or just to test it:
             Example: getyoutubecc -v pNiFoYt69-w -l fr -t french -T es
             Example: getyoutubecc -v 2XraaWefBd8 -l en 
             NOTE: if video has a track name, the -t argument is mandatory 
+
+OPTIONS:
+    -v --videoid        Video id. Like 2XraaWefBd8. It appears in every youtube URL
+    -l --language       iso lang code. Like en, es, fr..
+    -t --track          The name of the track if video has several. You will have to find out
+                        this name in the youtube page of the video
+    -T --translate      iso lang code. Like en,es, fr of the language you want to tranlate to
+
 
 COPYRIGHT
 -------------------------------------------------------
