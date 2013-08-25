@@ -44,6 +44,7 @@ If you prefer the command line version of this, or just to test it:
             NOTE: if video has a track name, the -t argument is mandatory 
 
 OPTIONS:
+
     -v --videoid        Video id. Like 2XraaWefBd8. It appears in every youtube URL
     -l --language       iso lang code. Like en, es, fr..
     -t --track          The name of the track if video has several. You will have to find out
