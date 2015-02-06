@@ -1,3 +1,8 @@
+NOTE: NOT WORKING!!!!!!
+======================================================
+Youtube changed the API so this script is outdated and not working... Not planing on fixing it anytime soon. Sorry
+
+
 DESCRIPTION
 =======================================================
 
