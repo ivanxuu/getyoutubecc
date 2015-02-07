@@ -2,7 +2,7 @@ NOTE: NOT WORKING!!!!!!
 ======================================================
 Youtube changed the API so this script is outdated and not working... Not planing on fixing it anytime soon. Sorry
 
-As alternative use `youtube-dl` with the `--write-auto-sub` option (thanks to coderholic)
+As an alternative use `youtube-dl` with the `--write-auto-sub` option (thanks to coderholic)
 
 DESCRIPTION
 =======================================================
